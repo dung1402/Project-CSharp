@@ -1,0 +1,41 @@
+﻿ <!--sidebar start-->
+<aside>
+	<div id="sidebar" class="nav-collapse">
+		<!-- sidebar menu start-->
+		<div class="leftside-navigation">
+			<ul class="sidebar-menu" id="nav-accordion">
+				<li>
+					<a class="active" href="@Url.Content("~/")">
+						<i class="fa fa-dashboard"></i>
+						<span>Trang Chủ</span>
+					</a>
+				</li>
+				<li class="sub-menu">
+					<a href="javascript:;">
+						<i class="fa fa-book"></i>
+						<span>Danh Mục</span>
+					</a>
+					<ul class="sub">
+						<li><a href="@Url.Action("Index","Product")"><i class="fa fa-folder-open-o"></i>Sản Phẩm</a></li>
+						<li><a href="@Url.Action("Index","Category")"><i class="fa fa-folder-open-o"></i>Loai SP</a></li>
+
+
+					</ul>
+				</li>
+				<li class="sub-menu">
+					<a href="javascript:;">
+						<i class="fa fa-book"></i>
+						<span>Quản Lý</span>
+					</a>
+					<ul class="sub">
+
+						<li><a href="@Url.Action("Index","User")"><i class="fa fa-user"></i>Quản Lý người dùng</a></li>
+
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- sidebar menu end-->
+	</div>
+</aside>
+<!--sidebar end-->
